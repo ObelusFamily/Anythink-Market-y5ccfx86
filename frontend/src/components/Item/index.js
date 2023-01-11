@@ -9,6 +9,7 @@ import {
 } from "../../constants/actionTypes";
 import { getItemAndComments } from "./utils/ItemFetcher";
 
+
 const mapStateToProps = (state) => ({
   ...state.item,
   currentUser: state.common.currentUser,
